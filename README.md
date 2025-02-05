@@ -7,3 +7,5 @@ Here is a link to the original asset.
 https://orange-juice-games.itch.io/male-base-mesh
 
 This male-base-mesh asset is licensed under Creative Commons Zero (CC0) license.
+
+![](./Preview/VeZyqq.png)![](VQ93Qd.png)
