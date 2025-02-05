@@ -1,4 +1,8 @@
 # Godot-Male-Base-Mesh
+> I'm making a game and just wanted to help other game developers so i made a  
+>  male base mesh with a full rig and uv unwrapped it and put it under the CC0 license.  
+>  - orange-juice-games
+
 Submitted to [Godot Engine Asset Library](https://godotengine.org/asset-library/asset/15487)   
 This is a original reupload to GitHub. 
 The original author is [orange-juice-games](https://orange-juice-games.itch.io/).  
