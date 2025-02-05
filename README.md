@@ -6,8 +6,6 @@ The original author is [orange-juice-games](https://orange-juice-games.itch.io/)
 Here is a link to the original asset.  
 https://orange-juice-games.itch.io/male-base-mesh
 
-This male-base-mesh asset is licensed under Creative Commons Zero (CC0) license.
-
 A fully rigged and UV-unwrapped male base mesh, provided under the CC0 license.   
 Designed to assist game developers, this model serves as a versatile foundation for character creation.
 
