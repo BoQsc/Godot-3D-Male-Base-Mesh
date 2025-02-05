@@ -1,6 +1,6 @@
 # Godot-Male-Base-Mesh
-
-This is a original reupload to GitHub.  
+Submitted to [Godot Engine Asset Library](https://godotengine.org/asset-library/asset/15487)   
+This is a original reupload to GitHub. 
 The original author is [orange-juice-games](https://orange-juice-games.itch.io/).  
 
 Here is a link to the original asset.  
