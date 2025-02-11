@@ -50,3 +50,5 @@ It's so weird, that after I unclick "import as Skeleton" and then toggle again, 
 It seems like untoggling "import as Skeleton", deleting the scene, creating, creating a new scene, dragging the glb into scene then adding subnode of Skeleton3d and retoggling "import as Skeleton", the bones finally appear again.
 
 It seems like deleting male_base_mesh from the scene, untoggling "import as Skeleton" and then dragging to create new male_base_mesh  and a new subnode Skeleton3d and then toggling "import as Skeleton"  again also helps to resolve.
+
+Somehow now it resolves by simply removing Skeleton3d subnode , untoggling "import as Skeleton" and then creating Skeleton3d subnode  and retoggling "import as Skeleton". All bones now appear.
