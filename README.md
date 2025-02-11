@@ -22,3 +22,22 @@ CC0: This work has been marked as dedicated to the public domain.
 
 
 ![](./Preview/VeZyqq.png)![](VQ93Qd.png)
+
+
+---- 
+A 3d rigged and male base mesh, provided under the CC0 license.
+Primarily released by orange-juice-games.itch.io under CC0 license.
+
+Remember to adjust import setting for this .glb by double clicking 3d Male Base Mesh .glb and then once it opens up for the root "Scene" toggle in the Nodes section: "Import as Skeleton".
+
+2025-02-11 Fixed origin geometry - Tested on Godot 4.3
+
+If you can improve it, please create an issue with details on GitHub Repository. https://github.com/BoQsc/Godot-Male-Base-Mesh/
+
+Correct way of using with Skeleton3d node:
+1. Create a new 3d Scene
+2. Drag .glb into Filesystem.
+3. Drag .gllb into scene.
+4. Create new Skeleton3d subnode for male_base_mesh Node.
+5. Double click the male_base_mesh.glb in the Filesystem.
+6. Toggle "Import as Skeleton"
