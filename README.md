@@ -25,7 +25,7 @@ CC0: This work has been marked as dedicated to the public domain.
 
 
 ---- 
-A 3d rigged and male base mesh, provided under the CC0 license.
+A 3d rigged and male base mesh, provided under the CC0 license.  
 Primarily released by orange-juice-games.itch.io under CC0 license.
 
 Remember to adjust import setting for this .glb by double clicking 3d Male Base Mesh .glb and then once it opens up for the root "Scene" toggle in the Nodes section: "Import as Skeleton".
@@ -34,10 +34,15 @@ Remember to adjust import setting for this .glb by double clicking 3d Male Base 
 
 If you can improve it, please create an issue with details on GitHub Repository. https://github.com/BoQsc/Godot-Male-Base-Mesh/
 
-Correct way of using with Skeleton3d node:
+Correct way of using with Skeleton3d node: 
 1. Create a new 3d Scene
 2. Drag .glb into Filesystem.
 3. Drag .gllb into scene.
 4. Create new Skeleton3d subnode for male_base_mesh Node.
 5. Double click the male_base_mesh.glb in the Filesystem.
-6. Toggle "Import as Skeleton"
+6. Toggle  "Import as Skeleton"
+7. The bones in the Skeleton3d subnode  should now appear.
+
+Weird bug detected in import system of Godot 4.3: 
+All good for a fresh project, all bones loaded after I toggle "import as Skeleton"
+It's so weird, that after I unclick "import as Skeleton" and then toggle again, the skeleton parts no longer appear ever. no matter how many times I click and unclick.
