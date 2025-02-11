@@ -46,3 +46,7 @@ Correct way of using with Skeleton3d node:
 Weird bug detected in import system of Godot 4.3: 
 All good for a fresh project, all bones loaded after I toggle "import as Skeleton"
 It's so weird, that after I unclick "import as Skeleton" and then toggle again, the skeleton parts no longer appear ever. no matter how many times I click and unclick.
+
+It seems like untoggling "import as Skeleton", deleting the scene, creating, creating a new scene, dragging the glb into scene then adding subnode of Skeleton3d and retoggling "import as Skeleton", the bones finally appear again.
+All good for a fresh project, all bones loaded after I toggle "import as Skeleton"
+It's so weird, that after I unclick "import as Skeleton" and then toggle again, the skeleton parts no longer appear ever. no matter how many times I click and unclick.
