@@ -52,3 +52,8 @@ It seems like untoggling "import as Skeleton", deleting the scene, creating, cre
 It seems like deleting male_base_mesh from the scene, untoggling "import as Skeleton" and then dragging to create new male_base_mesh  and a new subnode Skeleton3d and then toggling "import as Skeleton"  again also helps to resolve.
 
 Somehow now it resolves by simply removing Skeleton3d subnode , untoggling "import as Skeleton" and then creating Skeleton3d subnode  and retoggling "import as Skeleton". All bones now appear.
+
+Alright it seems like we can ignore all the previous issues.  
+I've learned enough from [Godot 4.0 Third Person Controller Tutorial ( 2023 ) by Lukky](https://youtu.be/EP5AYllgHy8?si=T9O6lg1yap_3sGD-&t=1132)
+
+After dragging to scene you have to right click the 3d Node of "3d Male Base Mesh" and click button "Make local" this will expand to contained skeleton inside gltf file.
