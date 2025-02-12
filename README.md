@@ -1,3 +1,5 @@
+![](./Preview/VeZyqq_preview_small.png)![](VQ93Qd.png)
+
 To use this 3D Male Base Mesh, you can drag .glb file into the scene,  
 right-click on the male_base_mesh node and click "Make Local" 
 
@@ -36,9 +38,6 @@ By marking the work with a CC0 public domain dedication, the creator is giving u
 
 
 CC0: This work has been marked as dedicated to the public domain.
-
-
-![](./Preview/VeZyqq.png)![](VQ93Qd.png)
 
 
 ---- 
