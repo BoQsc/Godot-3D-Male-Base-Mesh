@@ -61,7 +61,7 @@ There are all the colors and names according to the subject it belongs.
 
 
 
-Todo: There is still weird orange rectangle around 3d male mesh
+Already resolved by 1.0.2: There is still weird orange rectangle around 3d male mesh
 
 
 2025-02-12 1.0.2 The rotation and location were fixed.
