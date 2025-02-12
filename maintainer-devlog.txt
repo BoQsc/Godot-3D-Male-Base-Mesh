@@ -74,3 +74,39 @@ instead they were seemingly randomly fractional.
 Now I pressed CTRL + A and selected "rotation". This seemingly worked to restore "rotation" to solid values.
 Then I repeated the same for "location" since I've also noticed it not being a solid value like you would expect.
 After all this done, I exported again as .glb file. It's not seemingly fixed
+
+
+
+
+------My old thoughts-Deprecrated----------
+
+Remember to adjust import setting for this .glb by double clicking 3d Male Base Mesh .glb and then once it opens up for the root "Scene" toggle in the Nodes section: "Import as Skeleton".
+
+2025-02-11 Fixed origin geometry - Tested on Godot 4.3
+
+If you can improve it, please create an issue with details on GitHub Repository. https://github.com/BoQsc/Godot-Male-Base-Mesh/
+
+Correct way of using with Skeleton3d node: 
+1. Create a new 3d Scene
+2. Drag .glb into Filesystem.
+3. Drag .gllb into scene.
+4. Create new Skeleton3d subnode for male_base_mesh Node.
+5. Double click the male_base_mesh.glb in the Filesystem.
+6. Toggle  "Import as Skeleton"
+7. The bones in the Skeleton3d subnode  should now appear.
+
+Weird bug detected in import system of Godot 4.3: 
+All good for a fresh project, all bones loaded after I toggle "import as Skeleton"
+It's so weird, that after I unclick "import as Skeleton" and then toggle again, the skeleton parts no longer appear ever. no matter how many times I click and unclick.
+
+It seems like untoggling "import as Skeleton", deleting the scene, creating, creating a new scene, dragging the glb into scene then adding subnode of Skeleton3d and retoggling "import as Skeleton", the bones finally appear again.
+
+It seems like deleting male_base_mesh from the scene, untoggling "import as Skeleton" and then dragging to create new male_base_mesh  and a new subnode Skeleton3d and then toggling "import as Skeleton"  again also helps to resolve.
+
+Somehow now it resolves by simply removing Skeleton3d subnode , untoggling "import as Skeleton" and then creating Skeleton3d subnode  and retoggling "import as Skeleton". All bones now appear.
+
+Alright it seems like we can ignore all the previous issues.  
+I've learned enough from [Godot 4.0 Third Person Controller Tutorial ( 2023 ) by Lukky](https://youtu.be/EP5AYllgHy8?si=T9O6lg1yap_3sGD-&t=1132)
+
+After dragging to scene you have to right click the 3d Node of "3d Male Base Mesh" and click button "Make local" this will expand to contained skeleton inside gltf file.
+
