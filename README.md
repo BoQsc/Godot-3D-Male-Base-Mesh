@@ -10,6 +10,9 @@ If you are very new to Godot Engine, you might also want to temporary hide weird
 colored wireframes temporary: these are known as Gizmos and can be disabled by   
 clicking "Perspective" button on the left top corner in the scene of Godot  
 
+The next step would probably be creating animations for Male Base Mesh.  
+However the overall revision of Male Base Mesh might be needed and important to have.  
+
 # Godot-Male-Base-Mesh
 > I'm making a game and just wanted to help other game developers so i made a  
 >  male base mesh with a full rig and uv unwrapped it and put it under the CC0 license.  
