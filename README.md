@@ -22,6 +22,13 @@ This is a simple T Pose Male Base Mesh with Armature.
 Maintainer Note: I use Blender 4.3.2 version to maintain this .glb project  
 Tested on Godot Engine 4.3  
 
+The next step: animations
+Basic Idle Animation of Male 3d Mesh.  
+The most basic idle animation for a 3D character typically involves small, subtle movements that give the impression of life without any major motion.  
+* Breathing: Small shift in overall body overtime; or The chest or abdomen slightly rises and falls in a slow, rhythmic manner to simulate breathing.  
+* Weight shifting: The character slightly shifts its weight from one leg to the other, maybe with a small adjustment of the posture to avoid a static pose.  
+* Small hand or arm movements: Fingers might twitch or hands may subtly sway, giving the impression of relaxed movement.  
+* Head movement: The character might make tiny adjustments in head position, such as tilting slightly or a minimal turn, to make it look more natural.
 
 # Godot-Male-Base-Mesh
 > I'm making a game and just wanted to help other game developers so i made a  
