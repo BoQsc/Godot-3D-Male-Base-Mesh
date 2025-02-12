@@ -5,7 +5,7 @@ You may then add to the scene a Camera3D node and a DirectionalLight3D.
 Then click button "Run Project" (F5) button to run the scene.  
 
 
-For New to Godot: dealing with Gizmos 
+For New to Godot: dealing with Gizmos  
 If you are very new to Godot Engine, you might also want to temporary hide weird   
 colored wireframes temporary: these are known as Gizmos and can be disabled by   
 clicking "Perspective" button on the left top corner in the scene of Godot  
