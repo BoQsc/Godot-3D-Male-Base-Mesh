@@ -1,3 +1,4 @@
+Please submit [issues](https://github.com/BoQsc/Godot-Male-Base-Mesh/issues) with instructions of improvement.
 # 3D Male Base Mesh
 ![](./Preview/VeZyqq_preview_small.png)![](VQ93Qd.png)
 ### How to use
@@ -18,7 +19,6 @@ However the overall revision of Male Base Mesh might be needed and important to 
 
 This is a simple T Pose Male Base Mesh with Armature.
 
-Please submit [issues](https://github.com/BoQsc/Godot-Male-Base-Mesh/issues) with instructions of improvement.
 
 # Godot-Male-Base-Mesh
 > I'm making a game and just wanted to help other game developers so i made a  
