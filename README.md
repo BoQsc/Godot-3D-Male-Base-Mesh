@@ -18,7 +18,7 @@ clicking "Perspective" button on the left top corner in the scene of Godot
 The next step would probably be creating animations for Male Base Mesh.  
 However the overall revision of Male Base Mesh might be needed and important to have.  
 
-This is a simple T Pose Male Base Low Poly Mesh with Armature.  
+This is a simple T Pose Male Base Low Poly Mesh with Armature, no embedded animations.  
 Maintainer Note: I use Blender 4.3.2 version to maintain this .glb project  
 Tested on Godot Engine 4.3  
 
