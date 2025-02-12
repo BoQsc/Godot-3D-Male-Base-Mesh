@@ -19,6 +19,8 @@ However the overall revision of Male Base Mesh might be needed and important to 
 
 This is a simple T Pose Male Base Mesh with Armature.  
 Maintainer Note: I use Blender 4.3.2 version to maintain this .glb project  
+Tested on Godot Engine 4.3  
+
 
 # Godot-Male-Base-Mesh
 > I'm making a game and just wanted to help other game developers so i made a  
