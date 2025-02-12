@@ -1,0 +1,76 @@
+Maintenance Development log.
+
+Tips on 3D Skeleton.
+
+To hide Skeleton3d Gizmo (Yellow wireframe).
+Click on Toolbar button "View". 
+Gizmos -> Skeleton3D
+This will hide the annoying skeleton yellow wireframe around the mesh model for better preview.
+
+Alternatively all View Gizmos can be turned off by clicking button on the top left button called "Perspective"
+This is also useful for FPS monitoring. 
+"View Frame Time" can be toggled to reveal FPS.
+"View Information" can be toggled to reveal count of primitives and objects.
+And "Half resolution" mode for more FPS.
+
+
+Looping 3D animations.
+To loop an animation, you have to first drag .glb into the scene.
+Then right click on it and click Drop-down button "Make local"
+Then AnimationPlayer should appear among nodes at the bottom of Scene explorer.
+Once you click it. You will see bottom animation tab open up.
+To the very top right corner there is a button "Animation Looping"
+If you click it it will throw a message.
+
+Nearby the bottom of the animation player there is a button with Warning sign. 
+By clicking it you might see the reason on why animation looping is not yet available for this animation.
+All you have to do now is double click .glb file in the FileSystem.
+Now on the left you should locate AnimationPlayer.
+Select the animation you would want to loop and set the Loop Mode to Linear.
+Most importantly set the Save to File and tick the Keep Custom Track. 
+Confirm by clicking "Reimport" button.
+Now you will have to again drag the glb into the scene and you will finally be able to click the animation loop button.
+
+
+Detecting incorrect geometry origin.
+Visually when you import you might see something is off, either the yellow surrounding box is below waist or something in similar scenario. 
+Most likely that's because the author of the .glb file forgot to set a correct geometry origin. But before that we have to once more be sure that it is the case.
+
+This can be done by double clicking the .glb file and selecting mesh of Skeleton3D, on the left side of the UI under "Gnerate" tick the Physic "ON"
+If the Physics body is below or in different location than the Skeleton 3D mesh:
+that means you have to open the blender and fix the geometry origin.
+
+
+
+Restoring unpacked .glb by "make local."
+I haven't seen a way to restore it back. 
+For me the current method is deleting the localized node and reintroducing the .glb into the scene again.
+
+
+
+
+
+Hiding the scene's top-right UI 3d Directions helper.
+This can be done through Editor settings.
+"Show viewport Rotation Gizmo"
+
+Recognizing the various colors in the scene.
+You can check the Editor settings of 3D Gizmos. 
+There are all the colors and names according to the subject it belongs.
+
+
+
+
+Todo: There is still weird orange rectangle around 3d male mesh
+
+
+2025-02-12 1.0.2 The rotation and location were fixed.
+In Godot, After double clicking the .glb and enabling/toggling Generate->Physics 
+I've noticed that the physics wireframe was in different direction than the mesh itself.
+I decided to fix this and import 3D Male Body Mesh into Blender. 
+Then I pressed N and to view Transform helper UI show up. 
+I looked at the "Rotation:" values and they surely were weird and not solid values, 
+instead they were seemingly randomly fractional.
+Now I pressed CTRL + A and selected "rotation". This seemingly worked to restore "rotation" to solid values.
+Then I repeated the same for "location" since I've also noticed it not being a solid value like you would expect.
+After all this done, I exported again as .glb file. It's not seemingly fixed
