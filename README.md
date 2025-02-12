@@ -1,4 +1,4 @@
-Please submit [issues](https://github.com/BoQsc/Godot-Male-Base-Mesh/issues), instructions of improvement and suggestions.  
+Please submit [issues](https://github.com/BoQsc/Godot-Male-Base-Mesh/issues) - instructions of improvement and suggestions.  
 Latest version: [Download](../../releases/latest/download/male_base_mesh.zip)
 # 3D Male Base Mesh
 ![](./Preview/VeZyqq_preview_small.png)![](VQ93Qd.png)
