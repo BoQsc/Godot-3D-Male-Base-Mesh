@@ -4,6 +4,11 @@ right-click on the male_base_mesh node and click "Make Local"
 You may then add to the scene a Camera3D node and a DirectionalLight3D.  
 Then click button "Run Project" (F5) button to run the scene.  
 
+
+If you are very new to Godot Engine, you might also to temporary hide weird   
+colored wireframes temporary: these are known as Gizmos and can be disabled by   
+clicking "Perspective" button on the left top corner in the scene of Godot  
+
 # Godot-Male-Base-Mesh
 > I'm making a game and just wanted to help other game developers so i made a  
 >  male base mesh with a full rig and uv unwrapped it and put it under the CC0 license.  
