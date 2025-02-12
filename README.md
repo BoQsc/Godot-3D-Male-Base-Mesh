@@ -1,3 +1,6 @@
+To use this 3D Male Base Mesh, you can drag .glb file into the scene,  
+right-click on the male_base_mesh node and click "Make Local" 
+
 # Godot-Male-Base-Mesh
 > I'm making a game and just wanted to help other game developers so i made a  
 >  male base mesh with a full rig and uv unwrapped it and put it under the CC0 license.  
