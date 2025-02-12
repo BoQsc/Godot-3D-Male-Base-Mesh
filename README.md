@@ -30,6 +30,8 @@ The most basic idle animation for a 3D character typically involves small, subtl
 * Small hand or arm movements: Fingers might twitch or hands may subtly sway, giving the impression of relaxed movement.  
 * Head movement: The character might make tiny adjustments in head position, such as tilting slightly or a minimal turn, to make it look more natural.
 
+This type of animation adds realism without requiring complex motions or actions. The focus is on making the character seem "alive" in a stationary position.  
+
 # Godot-Male-Base-Mesh
 > I'm making a game and just wanted to help other game developers so i made a  
 >  male base mesh with a full rig and uv unwrapped it and put it under the CC0 license.  
