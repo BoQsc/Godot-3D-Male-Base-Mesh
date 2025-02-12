@@ -25,10 +25,11 @@ This is a simple T Pose Male Base Mesh with Armature.
 
 Submitted to [Godot Engine Asset Library](https://godotengine.org/asset-library/asset/15487)   
 This is a original reupload to GitHub. 
-The original author is [orange-juice-games](https://orange-juice-games.itch.io/).  
 
 Here is a link to the original asset.  
-https://orange-juice-games.itch.io/male-base-mesh
+https://orange-juice-games.itch.io/male-base-mesh  
+The original author is [orange-juice-games](https://orange-juice-games.itch.io/).  
+
 
 A fully rigged and UV-unwrapped male base mesh, provided under the CC0 license.   
 Designed to assist game developers, this model serves as a versatile foundation for character creation.
