@@ -37,7 +37,7 @@ This type of animation adds realism without requiring complex motions or actions
 >  male base mesh with a full rig and uv unwrapped it and put it under the CC0 license.  
 >  - orange-juice-games
 
-Submitted to [Godot Engine Asset Library](https://godotengine.org/asset-library/asset/15487)   
+Submitted to [Godot Engine Asset Library](https://godotengine.org/asset-library/asset?filter=3d+Male+Base+Mesh&category=&godot_version=&cost=&sort=updated&user=boqsc0)   
 This is a original reupload to GitHub. 
 
 Here is a link to the original asset.  
