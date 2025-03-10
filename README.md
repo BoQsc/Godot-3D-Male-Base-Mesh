@@ -23,7 +23,7 @@ Maintainer Note: I use Blender 4.3.2 version to maintain this .glb project
 Tested on Godot Engine 4.3  
 
 The next step: animations
-Basic Idle Animation of Male 3d Mesh.  
+Basic Idle Animation and Walk Cycle animation of Male 3d Mesh.  
 The most basic idle animation for a 3D character typically involves small, subtle movements that give the impression of life without any major motion.  
 * Breathing: Small shift in overall body overtime; or The chest or abdomen slightly rises and falls in a slow, rhythmic manner to simulate breathing.  
 * Weight shifting: The character slightly shifts its weight from one leg to the other, maybe with a small adjustment of the posture to avoid a static pose.  
